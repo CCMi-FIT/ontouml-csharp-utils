@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <title>$title$</title>
+    <authors>Dan Homola</authors>
+    <owners>Dan Homola</owners>
+    <licenseUrl>https://opensource.org/licenses/MIT</licenseUrl>
+    <!--<projectUrl>http://PROJECT_URL_HERE_OR_DELETE_THIS_LINE</projectUrl>
+    <iconUrl>http://ICON_URL_HERE_OR_DELETE_THIS_LINE</iconUrl>-->
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>$description$</description>
+    <releaseNotes>Initial release.</releaseNotes>
+    <copyright>Copyright 2016</copyright>
+    <tags>ontouml mdd</tags>
+  </metadata>
+  <files>
+    <file src="bin\$configuration$\*.pdb" target="lib"></file>
+    <file src="bin\$configuration$\*.dll" target="lib"></file>
+  </files>
+</package>
